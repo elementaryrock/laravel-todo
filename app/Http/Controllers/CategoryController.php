@@ -58,3 +58,4 @@ class CategoryController extends Controller
             ->with('status', "Removed classification \"{$name}\"; its tasks remain in the general ledger.");
     }
 }
+
